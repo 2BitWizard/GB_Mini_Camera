@@ -1,4 +1,4 @@
-# GB_Micro_Camera
+# GB_Mini_Camera
 A smaller flashable version of the original GameBoy Camera
 
 This project may still receive updates. The current release (1.3) has been produced, assembled and tested.
