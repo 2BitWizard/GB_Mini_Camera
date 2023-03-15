@@ -1809,9 +1809,6 @@
   (junction (at 81.28 22.86) (diameter 0) (color 0 0 0 0)
     (uuid 628cdb92-5991-49ae-939e-019826270b78)
   )
-  (junction (at 264.16 100.33) (diameter 0) (color 0 0 0 0)
-    (uuid 6f4f664c-fac5-4e8e-beb6-7697dbf257a5)
-  )
   (junction (at 207.01 100.33) (diameter 0) (color 0 0 0 0)
     (uuid af0e6960-0fa2-475e-90e1-22532be87a7b)
   )
@@ -1857,10 +1854,6 @@
   (wire (pts (xy 181.61 129.54) (xy 181.61 120.65))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 0e3d9c47-0dab-4fb2-a6ac-c804ca93de50)
-  )
-  (wire (pts (xy 254 58.42) (xy 264.16 58.42))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 121e579e-7ce3-4fb0-8386-fa25a4da0cde)
   )
   (wire (pts (xy 193.04 30.48) (xy 204.47 30.48))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1969,10 +1962,6 @@
     (uuid 67b94076-0600-4384-9998-83dca6ab2873)
   )
 
-  (wire (pts (xy 264.16 100.33) (xy 269.24 100.33))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 681d3600-f0d7-4645-ae04-020d7fe0652a)
-  )
   (wire (pts (xy 254 29.21) (xy 261.62 29.21))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 6e3df012-86c5-4548-9b19-bd7ae2b357d4)
@@ -1986,10 +1975,6 @@
     (uuid 766039d4-7f71-40cc-a8bf-7785e3139c98)
   )
 
-  (wire (pts (xy 264.16 58.42) (xy 264.16 92.71))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 76e6ef87-3ad4-4c1a-afb7-c2baa72afe99)
-  )
   (wire (pts (xy 81.28 22.86) (xy 104.14 22.86))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 789ceddf-b1b4-475b-8c37-84d59a71b657)
@@ -2108,7 +2093,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid cac3a462-fd18-41be-9889-7cc673cd6cac)
   )
-  (wire (pts (xy 238.76 100.33) (xy 264.16 100.33))
+  (wire (pts (xy 238.76 100.33) (xy 269.24 100.33))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid d0b60f58-0c59-424a-add1-6fb27fee4c3d)
   )
@@ -2431,7 +2416,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 41c093d5-0536-43d1-93ed-0a264c53c990)
   )
-  (label "~{RAM_CE1}" (at 264.16 58.42 0)
+  (label "~{RAM_CE1}" (at 254 58.42 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 43e6d45d-9ef2-464d-84eb-587f49dfc1df)
   )
@@ -3123,7 +3108,7 @@
   (symbol (lib_id "Device:C") (at 257.81 31.75 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 07ce0738-8932-46a4-937a-c4c98a53970b)
-    (property "Reference" "C14" (id 0) (at 255.27 38.1 90))
+    (property "Reference" "C16" (id 0) (at 255.27 38.1 90))
     (property "Value" "10n" (id 1) (at 255.27 35.56 90))
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 261.62 30.7848 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3138,7 +3123,7 @@
   (symbol (lib_id "Device:C") (at 129.54 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1f965849-5bfc-415c-a5d9-cac6cb28e52e)
-    (property "Reference" "C6" (id 0) (at 133.35 134.6199 0)
+    (property "Reference" "C7" (id 0) (at 133.35 134.6199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n" (id 1) (at 133.35 137.1599 0)
@@ -3202,7 +3187,7 @@
   (symbol (lib_id "Device:C") (at 201.93 96.52 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2e0cc0f0-a955-4753-9d86-867446ec3959)
-    (property "Reference" "C9" (id 0) (at 200.66 93.98 0)
+    (property "Reference" "C10" (id 0) (at 200.66 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22p" (id 1) (at 200.66 91.44 0)
@@ -3236,7 +3221,7 @@
   (symbol (lib_id "Device:C") (at 44.45 156.21 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 57524438-d186-482d-a963-f6291b8ba529)
-    (property "Reference" "C20" (id 0) (at 50.8 161.29 90)
+    (property "Reference" "C1" (id 0) (at 50.8 161.29 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (id 1) (at 50.8 158.75 90)
@@ -3255,7 +3240,7 @@
   (symbol (lib_id "Device:C") (at 269.24 96.52 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 596688bd-6d00-4ca3-a813-808900ca2aaa)
-    (property "Reference" "C17" (id 0) (at 275.59 97.79 0)
+    (property "Reference" "C18" (id 0) (at 275.59 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22p" (id 1) (at 275.59 95.25 0)
@@ -3327,7 +3312,7 @@
   (symbol (lib_id "Device:C") (at 104.14 26.67 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5a69ed25-be72-4c35-83ac-d1082505b471)
-    (property "Reference" "C5" (id 0) (at 107.95 25.3999 0)
+    (property "Reference" "C6" (id 0) (at 107.95 25.3999 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10n" (id 1) (at 107.95 27.9399 0)
@@ -3364,7 +3349,7 @@
   (symbol (lib_id "Device:C") (at 81.28 26.67 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 797944f5-1223-4a2c-8f20-e58806257105)
-    (property "Reference" "C4" (id 0) (at 85.09 25.3999 0)
+    (property "Reference" "C5" (id 0) (at 85.09 25.3999 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10n" (id 1) (at 85.09 27.9399 0)
@@ -3383,7 +3368,7 @@
   (symbol (lib_id "Device:C") (at 46.99 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 838bd436-3126-4002-9588-017ad95d1686)
-    (property "Reference" "C1" (id 0) (at 46.99 45.72 90))
+    (property "Reference" "C2" (id 0) (at 46.99 45.72 90))
     (property "Value" "10n" (id 1) (at 46.99 48.26 90))
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 50.8 52.3748 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3398,7 +3383,7 @@
   (symbol (lib_id "Device:C") (at 212.09 96.52 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8551b460-59f6-4bde-a9f0-e7cf65db0a27)
-    (property "Reference" "C19" (id 0) (at 210.82 93.98 0)
+    (property "Reference" "C13" (id 0) (at 210.82 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n" (id 1) (at 210.82 91.44 0)
@@ -3417,7 +3402,7 @@
   (symbol (lib_id "Device:C") (at 73.66 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9f303935-b451-4d25-b5ad-cfa5c0b32723)
-    (property "Reference" "C3" (id 0) (at 77.47 134.6199 0)
+    (property "Reference" "C4" (id 0) (at 77.47 134.6199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n" (id 1) (at 77.47 137.1599 0)
@@ -3567,7 +3552,7 @@
   (symbol (lib_id "Device:C") (at 73.66 26.67 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid af020d6a-4a35-4c69-91ba-8c9f1da6cb45)
-    (property "Reference" "C2" (id 0) (at 77.47 25.3999 0)
+    (property "Reference" "C3" (id 0) (at 77.47 25.3999 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10n" (id 1) (at 77.47 27.9399 0)
@@ -3586,7 +3571,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 261.62 35.56 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid af51aa13-44cf-4151-934a-d66999a15335)
-    (property "Reference" "C15" (id 0) (at 265.43 35.1789 0)
+    (property "Reference" "C17" (id 0) (at 265.43 35.1789 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "22u" (id 1) (at 265.43 37.7189 0)
@@ -3605,7 +3590,7 @@
   (symbol (lib_id "Device:C") (at 208.28 30.48 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid bb200792-33fd-46de-82b9-d2b9e3b36f2e)
-    (property "Reference" "C10" (id 0) (at 207.01 35.56 0)
+    (property "Reference" "C12" (id 0) (at 207.01 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n" (id 1) (at 209.55 35.56 0)
@@ -3642,7 +3627,7 @@
   (symbol (lib_id "Device:C") (at 228.6 35.56 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c2348388-18fe-48f8-81bb-5f183f382f32)
-    (property "Reference" "C13" (id 0) (at 223.52 34.29 0)
+    (property "Reference" "C15" (id 0) (at 223.52 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n" (id 1) (at 223.52 36.83 0)
@@ -3661,7 +3646,7 @@
   (symbol (lib_id "Device:C") (at 156.21 81.28 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ce0be74b-e1aa-4330-907a-945bdaf093b5)
-    (property "Reference" "C7" (id 0) (at 156.21 73.66 90))
+    (property "Reference" "C8" (id 0) (at 156.21 73.66 90))
     (property "Value" "10n" (id 1) (at 156.21 76.2 90))
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 160.02 80.3148 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3676,7 +3661,7 @@
   (symbol (lib_id "Device:C") (at 181.61 133.35 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d31b4bd1-f0e6-4561-a15d-ab4fb3b60113)
-    (property "Reference" "C8" (id 0) (at 173.99 132.08 0)
+    (property "Reference" "C9" (id 0) (at 173.99 132.08 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10n" (id 1) (at 173.99 134.62 0)
@@ -3714,7 +3699,7 @@
   (symbol (lib_id "Device:C") (at 226.06 157.48 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e6f47b7a-7f50-4fb1-836c-991395752de8)
-    (property "Reference" "C12" (id 0) (at 219.71 156.21 0)
+    (property "Reference" "C14" (id 0) (at 219.71 156.21 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10n" (id 1) (at 219.71 158.75 0)
@@ -3750,25 +3735,6 @@
     (pin "7" (uuid 4077ffbc-be00-4cb2-a90d-b6d485ad937d))
     (pin "8" (uuid fada6c8e-472e-459d-ba39-57eaf4769e1a))
     (pin "9" (uuid 98a9f530-06db-4cd6-9a37-0873672a7952))
-  )
-
-  (symbol (lib_id "Device:C") (at 264.16 96.52 180) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid ed0febbd-8f77-4262-bcd3-1558ba50ca8a)
-    (property "Reference" "C16" (id 0) (at 260.35 97.79 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "22p" (id 1) (at 260.35 95.25 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 263.1948 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 264.16 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2c3676ce-0733-45ac-89c6-c5ec62ec86c6))
-    (pin "2" (uuid 0f1b65b0-9051-46c7-bdd9-81d248aa59c2))
   )
 
   (symbol (lib_id "GBC:FM28V100-TG ") (at 238.76 72.39 0) (unit 1)
@@ -3837,7 +3803,7 @@
   (symbol (lib_id "Device:C") (at 270.51 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f174638e-ba94-4c31-a50a-6208e269c43e)
-    (property "Reference" "C18" (id 0) (at 274.32 156.2099 0)
+    (property "Reference" "C19" (id 0) (at 274.32 156.2099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n" (id 1) (at 274.32 158.7499 0)
@@ -3877,65 +3843,62 @@
   )
 
   (symbol_instances
-    (path "/838bd436-3126-4002-9588-017ad95d1686"
-      (reference "C1") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    (path "/57524438-d186-482d-a963-f6291b8ba529"
+      (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/af020d6a-4a35-4c69-91ba-8c9f1da6cb45"
+    (path "/838bd436-3126-4002-9588-017ad95d1686"
       (reference "C2") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/9f303935-b451-4d25-b5ad-cfa5c0b32723"
+    (path "/af020d6a-4a35-4c69-91ba-8c9f1da6cb45"
       (reference "C3") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/797944f5-1223-4a2c-8f20-e58806257105"
+    (path "/9f303935-b451-4d25-b5ad-cfa5c0b32723"
       (reference "C4") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/5a69ed25-be72-4c35-83ac-d1082505b471"
+    (path "/797944f5-1223-4a2c-8f20-e58806257105"
       (reference "C5") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/1f965849-5bfc-415c-a5d9-cac6cb28e52e"
+    (path "/5a69ed25-be72-4c35-83ac-d1082505b471"
       (reference "C6") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/ce0be74b-e1aa-4330-907a-945bdaf093b5"
+    (path "/1f965849-5bfc-415c-a5d9-cac6cb28e52e"
       (reference "C7") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/d31b4bd1-f0e6-4561-a15d-ab4fb3b60113"
+    (path "/ce0be74b-e1aa-4330-907a-945bdaf093b5"
       (reference "C8") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/2e0cc0f0-a955-4753-9d86-867446ec3959"
-      (reference "C9") (unit 1) (value "22p") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    (path "/d31b4bd1-f0e6-4561-a15d-ab4fb3b60113"
+      (reference "C9") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/bb200792-33fd-46de-82b9-d2b9e3b36f2e"
-      (reference "C10") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    (path "/2e0cc0f0-a955-4753-9d86-867446ec3959"
+      (reference "C10") (unit 1) (value "22p") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/d3a8d4be-095e-4f1b-bf5f-374c1f70774e"
       (reference "C11") (unit 1) (value "22p") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/e6f47b7a-7f50-4fb1-836c-991395752de8"
+    (path "/bb200792-33fd-46de-82b9-d2b9e3b36f2e"
       (reference "C12") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/c2348388-18fe-48f8-81bb-5f183f382f32"
+    (path "/8551b460-59f6-4bde-a9f0-e7cf65db0a27"
       (reference "C13") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/07ce0738-8932-46a4-937a-c4c98a53970b"
+    (path "/e6f47b7a-7f50-4fb1-836c-991395752de8"
       (reference "C14") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/af51aa13-44cf-4151-934a-d66999a15335"
-      (reference "C15") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    (path "/c2348388-18fe-48f8-81bb-5f183f382f32"
+      (reference "C15") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/ed0febbd-8f77-4262-bcd3-1558ba50ca8a"
-      (reference "C16") (unit 1) (value "22p") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    (path "/07ce0738-8932-46a4-937a-c4c98a53970b"
+      (reference "C16") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/af51aa13-44cf-4151-934a-d66999a15335"
+      (reference "C17") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/596688bd-6d00-4ca3-a813-808900ca2aaa"
-      (reference "C17") (unit 1) (value "22p") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C18") (unit 1) (value "22p") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/f174638e-ba94-4c31-a50a-6208e269c43e"
-      (reference "C18") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0603_1608Metric")
-    )
-    (path "/8551b460-59f6-4bde-a9f0-e7cf65db0a27"
       (reference "C19") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0603_1608Metric")
-    )
-    (path "/57524438-d186-482d-a963-f6291b8ba529"
-      (reference "C20") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/2f7a8aea-c222-4a72-9e66-5f7ad98b9fed"
       (reference "D1") (unit 1) (value "D_Schottky") (footprint "GBC:Diode")
