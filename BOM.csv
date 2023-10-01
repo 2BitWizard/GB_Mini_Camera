@@ -3,7 +3,7 @@ Reference,Value,Count,References,Footprint,Name,Description,,Inverter Alternativ
 "C10, C11, C18",22pF,3,"C10, C11, C18",0603 (imperial),Capacitor Ceramic (X7R),Decoupling Capacitor,,74AHC1G04SE-7 
 C17,22uF,1,C17,1206 (imperial),Capacitor Tantalum (?10%),Filtering Capacitor,,"TC7S04FU,LF "
 C1,100nF,1,C1,0603 (imperial),Capacitor Ceramic (X7R),Decoupling Capacitor,,
-D1,N/A,1,D1,SOT-123,BAT54W-HG3-18 (or BAT 63-02V H6327 ),Schottky diode,,
+D1,N/A,1,D1,SOT-23,BAT54W-HG3-18 (or BAT 63-02V H6327 ),Schottky diode,,
 J2,N/A,1,J2,N/A,JST ZH1.5mm (9 pins),Camera Connector (male),,
 R1,1k?,1,R1,0603 (imperial),Resistor,Resistor,,
 U1,N/A,1,U1,TQFP-100 (14x14mm),Reuse from original cart (U1),Main gamecart chip,,
