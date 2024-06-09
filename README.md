@@ -1,5 +1,5 @@
 # The GB Mini Flashable Camera
-A small flashable version of the original GameBoy Camera
+**A small flashable version of the original GameBoy Camera**
 
 This project may still receive updates. The current release (1.3) has been produced, assembled and tested.
 While earlier prototypes and this 1.3 release have all worked for me, I can't guarantee their working.
