@@ -9,3 +9,5 @@ Note on assembly of the board. If you're using a new 3V0 regulator from the BOM 
 
 IMPORTANT note:
 Some GameBoy cameras have the U4 regulator populated instead of the U5 regulator. My board is designed to work with either the regulator linked in the BOM (recommended) or the U5 regulator harvested from the original camera cart. U4 will not work.
+
+![](/Component_placement.png)
