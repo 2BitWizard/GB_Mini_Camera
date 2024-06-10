@@ -10,6 +10,15 @@ Note on assembly of the board. If you're using a new 3V0 regulator from the BOM 
 IMPORTANT note:
 Some GameBoy cameras have the U4 regulator populated instead of the U5 regulator. My board is designed to work with either the regulator linked in the BOM (recommended) or the U5 regulator harvested from the original camera cart. U4 will not work.
 
+## what to fit it with
+
+The GB mini flashable camera fits perfectly with the [Camera+ Mini shell](https://ko-fi.com/s/a4d7bd649a). With this shell, you can reuse the regular camera ribbon.
+
+The "Longboard" version has a "neck" that allows mounting it is a regular Game Boy Camera shell with the regular ribbon cable. If you change your idea, you can physically break the neck and adapt the PCB again in the [Camera+ Mini shell](https://ko-fi.com/s/a4d7bd649a).
+
+In case you want to mount the short PCB in a regular camera shell or in the regular [Game Boy Camera+ shell](https://ko-fi.com/s/9457d1cc6e), you need a longer ribbon cable. 
+Aliexpress cables are too thick for that task and you must order a genuine cable.
+
 ## Component location on PCB
 
 ![](/Component_placement.png)
