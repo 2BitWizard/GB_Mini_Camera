@@ -17,7 +17,11 @@ The GB mini flashable camera in short version fits perfectly with the [Camera+ M
 The "Longboard" version has a "neck" that allows mounting it is a regular Game Boy Camera shell with the regular ribbon cable. If you change your idea, you can physically break the neck and adapt the PCB again in the [Camera+ Mini shell](https://ko-fi.com/s/a4d7bd649a).
 
 In case you want to mount the short PCB in a regular camera shell or in the regular [Game Boy Camera+ shell](https://ko-fi.com/s/9457d1cc6e), you need a longer ribbon cable. 
-Aliexpress cables are too thick for that task and you must order a genuine cable.
+Aliexpress cables are too thick for that task and you must order a genuine JST cable. The only available seller for replacement and longer cable is Digikey. Choose a [type B cable "socket to socket" ](https://www.digikey.fr/en/products/base-product/jst-sales-america-inc/455/A09ZR09Z/588181). The regular camera cable is [2 inches long](https://www.digikey.fr/en/products/detail/jst-sales-america-inc/A09ZR09ZR28H51B/6708551), so take at least a [4 inches one](https://www.digikey.fr/en/products/detail/jst-sales-america-inc/A09ZR09ZR28H102B/9972202).
+
+The PCBs come with pads for both vertical and horizontal SMD JST connectors. Be sure to solder on the right pads to avoid polarity inversion.
+
+![](/Connector.png)
 
 ## Component location on PCB (short version)
 
