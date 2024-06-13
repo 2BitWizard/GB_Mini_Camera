@@ -23,6 +23,8 @@ The PCBs come with pads for both vertical and horizontal SMD JST connectors. Be 
 
 ![](/Connector.png)
 
+Please follow the [building instructions](/build.pdf) for PCB ordering options. Use [JLCPCB](https://passport.jlcpcb.com/) for ordering. They offer VAT compliant services for European customers and very cheap shipping options.
+
 ## Component location on PCB (short version)
 
 ![](/Component_placement.png)
