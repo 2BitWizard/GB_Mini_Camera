@@ -46,3 +46,6 @@ Please follow the [building instructions](/build.pdf) for PCB ordering options. 
 |U4	|N/A	|1	|SOT-23-5	|NCP718ASN300T1G 	|3V0 voltage regulator|
 |U5	|N/A	|1	|TSOP-I-40 (18.4x10mm)	|AM29F080B	|Flash memory|
 
+## Notes
+- the AM29F080B is discontinued but easy to find on Aliexpress for cheap
+- Low voltage Schottky diode can be hard to find but any equivalent one will do the job
