@@ -48,4 +48,4 @@ Please follow the [building instructions](/build.pdf) for PCB ordering options. 
 
 ## Notes
 - the AM29F080B is discontinued but easy to find on Aliexpress for cheap
-- Low voltage Schottky diode can be hard to find but any equivalent one will do the job. The original camera used a Panasonic MA784 (discontinued), you can take inspiration from its datasheet. It must have the lowest possible forward voltage drop.
+- Low voltage Schottky diode can be hard to find but any equivalent one will do the job. The original camera used a Panasonic MA784 (discontinued), you can take inspiration from its datasheet. It must have the lowest possible forward voltage drop (about 0.18V forward voltage at 1 mA).
