@@ -27,7 +27,7 @@ Please follow the [building instructions](/build.pdf) for PCB ordering options. 
 
 ## Component location on PCB (short version)
 
-![](/Component_placement.png)
+![](/Component_placement_w_components.png)
 
 ## Component list (both versions)
 
