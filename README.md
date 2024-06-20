@@ -1,14 +1,11 @@
 # The GB Mini Flashable Camera
 **A small flashable version of the original GameBoy Camera**
 
-This project may still receive updates. The current release (1.3) has been produced, assembled and tested.
-While earlier prototypes and this 1.3 release have all worked for me, I can't guarantee their working.
-Assemble and use at your own risk. It is extremely easy to damage the MAC-GBD, FRAM and flash chip during assembly.
+The current release (1.3) has been produced, assembled and tested. It is extremely easy to damage the MAC-GBD, FRAM and flash chip during assembly, this project is **definitely not recommended** for beginners.
 
 Note on assembly of the board. If you're using a new 3V0 regulator from the BOM list, the C16 capacitor will not be necessary. Unlike the original 3V0 regulator, the pin connected to this capacitor is NC on the new 3V0 regulator.
 
-IMPORTANT note:
-Some GameBoy cameras have the U4 regulator populated instead of the U5 regulator. My board is designed to work with either the regulator linked in the BOM (recommended) or the U5 regulator harvested from the original camera cart. U4 will not work.
+**IMPORTANT note:** some GameBoy cameras have the U4 regulator populated instead of the U5 regulator. My board is designed to work with either the regulator linked in the BOM (recommended) or the U5 regulator harvested from the original camera cart. **U4 from the original board will not work.**
 
 ## What to fit it with
 
@@ -23,7 +20,7 @@ The PCBs come with pads for both vertical and horizontal SMD JST connectors. Be 
 
 ![](/Connector.png)
 
-Please follow the [building instructions](/build.pdf) for PCB ordering options. Use [JLCPCB](https://passport.jlcpcb.com/) for ordering. They offer VAT compliant services for European customers and very cheap shipping options.
+Please follow the [building instructions](/build.pdf) for PCB ordering options. Use [JLCPCB](https://passport.jlcpcb.com/) for ordering if you live in Europe. They offer VAT compliant services for European customers and very cheap shipping options.
 
 ## Component location and orientation on PCB (short version)
 
@@ -49,4 +46,6 @@ Please follow the [building instructions](/build.pdf) for PCB ordering options. 
 ## Notes
 - The AM29F080B is discontinued but easy to find on Aliexpress for cheap.
 - Low voltage Schottky diode can be hard to find but any equivalent one will do the job. The original camera used a Panasonic MA784 (discontinued), you can take inspiration from its datasheet. It must have the lowest possible forward voltage drop (about 0.18V forward voltage at 1 mA).
-- Most parts can be found on Aliexpress and Mouser except the ribbon cable. To avoid prohitive shipping fees, choose Aliexpress sellers with free shipping options.
+- Most parts can be found on Aliexpress and Mouser except the ribbon cable if you need one. To avoid prohitive shipping fees, choose Aliexpress sellers with free shipping options.
+- You can easily desolder the MAC-GBD by using a hot air gun on the back side of the original board until the chip falls by itself. This is by far the most secure way I've found. I do not recommend using low temp solder or other bismuth containing crap. No need.
+- Lead free solder in wire is really crap and will be a pain to use. Either use old good lead/tin alloy with flux core if you can find some or lead free solder paste. And always remind the rule of thumb when using flux: "the bigger the blob, the better the job".
