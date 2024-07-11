@@ -42,8 +42,9 @@ Please follow the [building instructions](/build.pdf) for PCB ordering options. 
 |U5	|N/A	|1	|TSOP-I-40 (18.4x10mm)	|AM29F080B	|Flash memory|
 
 ## Notes
-- The AM29F080B is discontinued but easy to find on Aliexpress for cheap.
+- The AM29F080B is discontinued but easy to find on Aliexpress for cheap (mainly recycled chips).
+- The M74VHC1GU04DFT1G-L22038 signal inverter is becoming hard to source in 2024 so it is recommended to switch to a MC74VHC1GU04DF1G ou any other substitutes (you can use the Digikey engine to search for equivalent parts).
 - Low voltage Schottky diode can be hard to find but any equivalent one will do the job. The original camera used a Panasonic MA784 (discontinued), you can take inspiration from its datasheet. It must have the lowest possible forward voltage drop (about 0.18V forward voltage at 1 mA).
-- Most parts can be found on Aliexpress and Mouser except the ribbon cable if you need one. To avoid prohitive shipping fees, choose Aliexpress sellers with free shipping options.
-- You can easily desolder the MAC-GBD by using a hot air gun on the back side of the original board until the chip falls by itself. This is by far the most secure way I've found. I do not recommend using low temp solder or other bismuth containing crap. No need.
+- Most parts can be found on Aliexpress and Mouser except the ribbon cable if you need one. To avoid prohitive shipping fees in general, choose Aliexpress sellers with free shipping options.
+- You can easily desolder the MAC-GBD by using a hot air gun (set at 250°C) on the back side of the original board until the chip falls by itself. This is by far the most secure way I've found. I do not recommend using low temp solder or other bismuth containing crap. No need.
 - Lead free solder in wire is really crap and will be a pain to use. Either use old good lead/tin alloy with flux core if you can find some or lead free solder paste. And always remind the rule of thumb when using flux: "the bigger the blob, the better the job".
