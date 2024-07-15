@@ -1,5 +1,5 @@
 # The GB Mini Flashable Camera
-**A small flashable version of the original GameBoy Camera. This fork was made for my own use without supervision or feed back from the original author.**
+**A small flashable version of the original GameBoy Camera. This fork was made for my own use without any supervision or feed back from the original author.**
 
 The current release (1.3) has been produced, assembled and tested. It is extremely easy to damage the MAC-GBD, FRAM and flash chip during assembly, this project is **definitely not recommended** for beginners. The board is compatible with any regular camera rom (Game Boy Camera, Pocket Camera, Hello Kitty, Zelda special edition and [Debagame tester](https://tcrf.net/Proto:Game_Boy_Camera)) and homebrews like [Photo!](https://github.com/untoxa/gb-photo) or [2bit PXLR Studio](https://github.com/HerrZatacke/2bit-pxlr-studio). It is recommended to flash this board with a [GBxCart](https://www.gbxcart.com/) and [FlashGBX](https://github.com/lesserkuma/FlashGBX) as support is guaranteed. Other devices (Cyclones, GB Operator, etc.) were not tested. May or may not work, I have no idea.
 
@@ -50,3 +50,6 @@ Please follow the [building instructions from the original author](/build.pdf) f
 - Most parts can be found on Aliexpress, Mouser and Digikey except for the ribbon cable (Digikey only) if you need a longer one.
 - You can easily desolder the MAC-GBD by using a hot air gun (set at 250°C) on the back side of the original board until the chip falls by itself. This is by far the most secure way I've found. I do not recommend using low temp solder or other bismuth containing crap. No need. The author of the original project recommends using a heating plate.
 - Lead free solder in wire is really crap and will be a pain to use. Either use old good lead/tin alloy with flux core if you can find some or lead free solder paste. And always remind the rule of thumb when using flux: "the bigger the blob, the better the job".
+
+## Kind warning
+I wasted many hours helping people with the "rival" flashable camera project without receiving any thanks. I've made many flashable camera for free, sometimes with my own cameras and nevertheless ended insulted by scumbags of the Game Boy retro community. In summary: I do not want to hear anything anymore at anytime about flashable cameras. You're on your own with this project.
