@@ -52,4 +52,4 @@ Please follow the [building instructions from the original author](/build.pdf) f
 - Lead free solder in wire is really crap and will be a pain to use. Either use old good lead/tin alloy with flux core if you can find some or lead free solder paste. And always remind the rule of thumb when using flux: "the bigger the blob, the better the job".
 
 ## Kind warning
-I wasted many hours helping people with the "rival" flashable camera project without receiving any thanks. I've made many flashable camera for free, sometimes with my own cameras and nevertheless ended insulted by scumbags of the Game Boy retro community. In summary: I do not want to hear anything anymore at anytime about flashable cameras. You're on your own with this project, good luck.
+I wasted many hours helping people with the "rival" flashable camera project without receiving any thanks. I've made many flashable camera for free, sometimes with my own cameras and nevertheless ended insulted by scumbags of the Game Boy retro community. SO: I do not want to hear anything anymore at anytime about flashable cameras. You're on your own with this project, good luck.
