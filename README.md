@@ -54,3 +54,7 @@ Please follow the [building instructions from the original author](/build.pdf) f
 
 ## Why I won't provide any help on this fork
 I wasted uncountable hours helping people with flashable camera projects sometimes without even receiving any thank in return. I've made many flashable cameras for free, even sacrifying some of my own cameras in case something went wrong on my side. I nevertheless ended being publically defamed by some scumbags of the Game Boy retro "community" seeking for pennies and some easy fame among nolifes.  I've really had enough of all this crap. So you're on your own with this project, contact the original author for issues but he's as pissed as I am for the same reasons.
+
+## Acknoledgements
+- [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork with relevant informations I did not have initially.
+- [2BitWizard](https://github.com/2BitWizard) for completing the project to its end despite being insulted online by members of the Game Boy retro "community" all along the process. Thanks also for sending me prototype boards.
