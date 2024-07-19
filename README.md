@@ -53,7 +53,7 @@ Please follow the [building instructions from the original author](/build.pdf) f
 - The schematic is precise enough to troubleshoot any issue with a multimeter in continuity mode.
 
 ## Why I won't provide any help on this fork
-I wasted uncountable hours helping people with flashable camera projects sometimes without receiving any thank in return. I've made many flashable cameras for free, even sacrifying some of my own cameras in case something went wrong on my side. I nevertheless ended being publically defamed by some scumbags of the Game Boy retro "community" seeking for pennies and some easy fame among nolifes.  I've really had enough of all this shit. So you're on your own with this project, try to contact the original author for issues but he is probably as pissed as I am for the same reasons.
+I wasted uncountable hours helping people with flashable camera projects sometimes without receiving any thank in return. I've made many flashable cameras for free, even sacrifying some of my own cameras in case something went wrong on my side. I've actively contributed to [Photo!](https://github.com/untoxa/gb-photo), the flashable camera custom rom. My reward ? Public defamation on social media by some scumbags of the Game Boy retro community. I've really had enough of all that shit at a certain point. So you're on your own with this project, try to contact the original author for issues but he is probably as pissed as I am for the same reasons.
 
 ## Acknoledgements
 - [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork with relevant informations I did not have initially.
