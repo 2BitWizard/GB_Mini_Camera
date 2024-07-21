@@ -47,6 +47,7 @@ Please follow the [building instructions from the original author](/build.pdf) f
 
 ## Notes
 - The AM29F080B is discontinued but easy to find on Aliexpress for cheap (batches are mainly recycled chips). It can be fun to dump the content to see what was the chip usage before its recycling.
+- Some versions of the FM28V100-TG by Cypress semiconductors come without a dot to indicate pin 1 but only a side notch. The side notch also indicates the row where pin 1 is located, so it must be soldered with notch pointing down (same as the dot if present).
 - The M74VHC1GU04DFT1G signal inverter is becoming hard to source in 2024 so it is recommended to switch to a MC74VHC1GU04DF1G (same pinout, same characteristics). The SC-88 package version is quite hard to find on Aliexpress but available on Mouser and Digikey. Chip marking must be **V6** in case of doubt when receiving the order.
 - Low voltage Schottky diode can also be hard to find but any equivalent one will do the job. The original camera used a Panasonic MA784 with marking **2D** (discontinued), among other undocumented variations, you can take inspiration from its datasheet. The RB510VM-30 is a possible candidate for example. It must have the lowest possible forward voltage drop.
 - Most parts can be found on Aliexpress, Mouser and Digikey except for the ribbon cable (Digikey only) if you need a longer one.
