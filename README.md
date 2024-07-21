@@ -56,7 +56,7 @@ Please follow the [building instructions from the original author](/build.pdf) f
 - The ferrite beads have been removed even if they are still mentioned in the pdf desciption of the project.
 - The schematic is precise enough to troubleshoot any issue with a multimeter in continuity mode.
 
-## Why I won't provide any furher help on this fork
+## Why I won't provide any further help on this fork
 I wasted uncountable hours helping people with flashable camera projects sometimes without receiving any thank in return. I've made many flashable cameras for free, even sacrifying some of my own cameras in case something went wrong on my side. I've actively contributed to [Photo!](https://github.com/untoxa/gb-photo), the flashable camera custom rom, all on my free time and hollidays. My reward ? Public defamation on social media by some well known scumbags of the Game Boy retro "community". I've really had enough of all that shit at a certain point. So you're on your own with this project, try to contact the original author for issues but he is probably as pissed as I am for the same reasons.
 
 ## Acknoledgements
