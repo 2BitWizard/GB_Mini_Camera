@@ -53,6 +53,7 @@ Please follow the [building instructions from the original author](/build.pdf) f
 - Most parts can be found on Aliexpress, Mouser and Digikey except for the ribbon cable (Digikey only) if you need a longer one.
 - You can easily desolder the MAC-GBD by using a hot air gun (set at 350°C maximum) on the back side of the original board until the chip falls by itself. This is by far the most secure way I've found. I do not recommend using low temp solder or other bismuth containing crap. No need. The author of the original project recommends using a heating plate set at 250°C.
 - Lead free solder in wire is really crap and will be a pain to use. Either use old good lead/tin alloy with flux core if you can find some or lead free solder paste. And always remind the rule of thumb when using flux: "the bigger the blob, the better the job".
+- The ferrite beads have been removed even if they are still mentioned in the pdf desciption of the project.
 - The schematic is precise enough to troubleshoot any issue with a multimeter in continuity mode.
 
 ## Why I won't provide any furher help on this fork
