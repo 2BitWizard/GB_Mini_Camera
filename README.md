@@ -67,4 +67,4 @@ Please follow the [building instructions from the original author](/build.pdf) f
 
 ## Acknowledgements
 - [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork with relevant informations I did not have initially.
-- [2BitWizard](https://github.com/2BitWizard) for bringing the project to fruition despite the insults and bad faith of the author of the competing project. Thanks also for sending me some boards for free.
+- [2BitWizard](https://github.com/2BitWizard) for bringing the project to fruition. Thanks also for sending me some boards for testing.
