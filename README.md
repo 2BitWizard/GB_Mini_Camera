@@ -65,6 +65,6 @@ Please follow the [building instructions from the original author](/build.pdf) f
 - The schematic is clear and precise enough to troubleshoot any issue with a multimeter in continuity mode. Easy check: the caps must **never** be shorted, two adjacent pins of the FRAM and flash memory must never be shorted. After that, any remaining issue is a just a matter of flow and reflow.
 - It's **very recommended** to use a magnifying system (USB microscope or binocular magnifier). Soldering with bare eyes is possible if you are lucky enough to get the device working first try but any issue will be impossible to troubleshoot. A multimeter is mandatory too in case of issue.
 
-## Acknoledgements
+## Acknowledgements
 - [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork with relevant informations I did not have initially.
 - [2BitWizard](https://github.com/2BitWizard) for bringing the project to fruition despite the insults and bad faith of the author of the competing project. Thanks also for sending me some boards for free.
