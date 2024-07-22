@@ -10,7 +10,7 @@ The current release (1.3) has been produced, assembled and tested. It is extreme
 - Good quality solder wire/flux or solder paste;
 - Isopropanol to clean all the mess;
 - A magnifying system like an USB microscope or binocular magnifiers;
-- A GBxCart flasher and FlashGBX;
+- A GBxCart flasher and FlashGBX software;
 - An overall skill in soldering SMD components.
 
 ## What to fit it with
@@ -67,4 +67,4 @@ Please follow the [building instructions from the original author](/build.pdf) f
 
 ## Acknoledgements
 - [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork with relevant informations I did not have initially.
-- [2BitWizard](https://github.com/2BitWizard) for completing the project to its end despite being insulted online by members of the Game Boy retro "community" all along the process. Thanks also for sending me prototype boards.
+- [2BitWizard](https://github.com/2BitWizard) for bringing the project to fruition despite the insults and bad faith of the author of the competing project.
