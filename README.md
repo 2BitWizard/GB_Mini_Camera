@@ -13,8 +13,6 @@ The current release (1.3) has been produced, assembled and tested. It is extreme
 - A GBxCart flasher and FlashGBX software;
 - An overall skill in soldering SMD components.
 
-Anyway, I suppose that if you have a problem doing this mod, you should easily be able to get help from an online Game Boy community full of non-toxic, well-intentioned and skilled people. Good luck to you!
-
 ## What to fit it with
 
 The GB mini flashable camera in short version fits perfectly with the [Camera+ Mini shell](https://ko-fi.com/s/a4d7bd649a). With this shell, you can reuse the regular camera sensor ribbon.
