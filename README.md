@@ -1,7 +1,5 @@
 # The GB Mini Flashable Camera - a friendly fork
-**A small flashable version of the original GameBoy Camera. This fork was made for my own use without any supervision or feed back from the original author. Any opinion expressed is mine and mine only.**
-
-Want to make a flashable Game Boy camera without giving a single cent to assholes ? This project is for you !
+**A small flashable version of the original GameBoy Camera. This fork was made for my own use without any supervision or feed back from the original author.**
 
 The current release (1.3) has been produced, assembled and tested. It is extremely easy to damage the MAC-GBD, FRAM and flash chip during assembly, this project is **definitely not recommended** for beginners. The board is compatible with any regular camera rom (Game Boy Camera, Pocket Camera, Hello Kitty, Zelda special edition and [Debagame tester](https://tcrf.net/Proto:Game_Boy_Camera)) and homebrews like [Photo!](https://github.com/untoxa/gb-photo) or [2bit PXLR Studio](https://github.com/HerrZatacke/2bit-pxlr-studio). It is recommended to flash this board with a [GBxCart](https://www.gbxcart.com/) and [FlashGBX](https://github.com/lesserkuma/FlashGBX) as support is guaranteed. Other devices (Cyclones, GB Operator, etc.) were not tested. May or may not work, I have no idea.
 
@@ -55,9 +53,6 @@ Please follow the [building instructions from the original author](/build.pdf) f
 - Lead free solder in wire is really crap and will be a pain to use. Either use old good lead/tin alloy with flux core if you can find some or lead free solder paste. And always remind the rule of thumb when using flux: "the bigger the blob, the better the job".
 - The ferrite beads have been removed even if they are still mentioned in the pdf desciption of the project.
 - The schematic is precise enough to troubleshoot any issue with a multimeter in continuity mode.
-
-## Why I won't provide any further help on this fork
-I wasted uncountable hours helping people with flashable camera projects sometimes without receiving any thank in return. I've made many flashable cameras for free, even sacrifying some of my own cameras in case something went wrong on my side. I've actively contributed to [Photo!](https://github.com/untoxa/gb-photo), the flashable camera custom rom, all on my free time and hollidays. My reward ? Public defamation on social media by some well known scumbags of the Game Boy retro "community". I've really had enough of all that shit at a certain point. So you're on your own with this project, try to contact the original author for issues but he is probably as pissed as I am for the same reasons.
 
 ## Acknoledgements
 - [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork with relevant informations I did not have initially.
