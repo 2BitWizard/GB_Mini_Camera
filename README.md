@@ -54,6 +54,7 @@ Please follow the [building instructions from the original author](/build.pdf) f
 |U5	|N/A	|1	|TSOP-I-40 (18.4x10mm)	|AM29F080B	|Flash memory|
 
 ## Notes (please read completely before attempting the project)
+- It is not reported in the original repo but C10 capacity must be doubled to remove any graphical glitch. You can either use a 44 pf capacitor or two 22pf capacitors in parallel.
 - The AM29F080B is discontinued but easy to find on Aliexpress for cheap (batches are mainly recycled chips but there are lots of old new stocks). It can be fun to dump the content to see what was the chip usage before its recycling.
 - Some versions of the FM28V100-TG by Cypress semiconductors come without a dot to indicate pin 1 but only a side notch. The side notch also indicates the row where pin 1 is located, so it must be soldered with notch pointing down (same as the dot if present).
 - The M74VHC1GU04DFT1G signal inverter is becoming hard to source in 2024 so it is recommended to switch to a MC74VHC1GU04DF1G (same pinout, same characteristics). The SC-88 package version is quite hard to find on Aliexpress but available on Mouser and Digikey. Chip marking must be **V6** in case of doubt when receiving the order.
@@ -64,6 +65,16 @@ Please follow the [building instructions from the original author](/build.pdf) f
 - The ferrite beads filters have been removed from the definitive PCB even if they are still mentioned in the pdf desciption of the project.
 - The schematic is clear and precise enough to troubleshoot any issue with a multimeter in continuity mode. Easy check: the caps must **never** be shorted, two adjacent pins of the FRAM and flash memory must never be shorted. After that, any remaining issue is a just a matter of flow and reflow.
 - It's **very recommended** to use a magnifying system (USB microscope or binocular magnifier). Soldering with bare eyes is possible if you are lucky enough to get the device working first try but any issue will be impossible to troubleshoot. A multimeter is mandatory too in case of issue.
+
+## Showcase
+![](/Showcase_2.png)
+The FRAM came without dot so I used the notch to orient it.
+
+![](/Showcase_3.png)
+I've ordered the long board to fit it in a regular camera shell. It can be broken at the "neck" to use a shorter shell.
+
+![](/Showcase_1.png)
+Some note: I've ordered the signal inverter in the wrong package on Aliexpess (package SC−74A, it was referenced as SC-88A but it was not). It fits on the original traces, and it is easier to solder than the SC-88A. As long as the chip marking begins by V6, pinout is the same. And as said, using a 22 pf capacitor for C10 led to graphical glitches on my side. As I know that this cap is particularly crucial for FRAM stability, I've tried doubling or divding the value by two. Doubling to 44 pf with two 22 pf in parallel fixes the graphical glitches. Also I've soldered C16 even if it is not required.
 
 ## Acknowledgements
 - [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork with relevant informations excavated from that fucking information black hole which is Discord.
