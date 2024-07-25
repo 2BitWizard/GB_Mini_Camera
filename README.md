@@ -67,4 +67,4 @@ Please follow the [building instructions from the original author](/build.pdf) f
 
 ## Acknowledgements
 - [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork with relevant informations I did not have initially.
-- [2BitWizard](https://github.com/2BitWizard) for bringing the project to fruition despite being insulted online all along the process by a well known asshole from the Game Boy modding scene risking losing pennies if this mod was published. Thanks also for sending me some boards for testing.
+- [2BitWizard](https://github.com/2BitWizard) for bringing the project to fruition despite being insulted online all along the process by a well known asshole from the Game Boy modding scene risking losing pennies if this mod was published. Thanks also for sending me some early boards for testing.
