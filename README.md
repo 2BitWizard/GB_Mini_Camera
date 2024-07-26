@@ -76,7 +76,7 @@ I've ordered the long board to fit it in a regular camera shell. It can be broke
 
 ![](/Showcase_1.png)
 Some note: 
-- I've ordered the signal inverter in the wrong package on Aliexpess (package SC−74A, it was referenced as SC-88A but it was not). It barely fits on the original traces, and it is easier to solder than the SC-88A. As long as the chip marking begins by V6, pinout is the same.
+- I've ordered the signal inverter in the wrong package on Aliexpess (package SC−74A, it was referenced as SC-88A but it was not). It barely fits on the original traces, and it was a real pain to solder on the traces. But as long as the chip marking begins by V6, pinout is the same.
 - Using a 22 pf capacitor for C10 as recommended in the original repo led to graphical glitches on my side. As I know that this very particular cap is crucial for FRAM stability, I've tried doubling or dividing the value by two. Doubling to 44 pf with two 22 pf in parallel fixes the graphical glitches. So I recommend using a single 39 pf instead of a 22 pf for C10.
 - I've soldered C16 even if it is not required.
 - I've used old new stock of Panasonic MA784 Schottky diode because I have some.
