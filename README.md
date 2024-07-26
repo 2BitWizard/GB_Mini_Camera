@@ -41,7 +41,8 @@ Please follow the [building instructions from the original author](/build.pdf) f
 |Reference	|Value	|Count	|Footprint	|Name	|Description|
 |-----------|----------|-----------|----------------|-------------|------------------|
 |C2, C3, C4, C5, C6, C7, C8, C9, C12, C13, C14, C15, C16, C19	|10nF	|14	|0603 (imperial)|	Capacitor Ceramic (X7R)|	Decoupling Capacitor|
-|C10, C11, C18	|22pF	|3	|0603 (imperial)	|Capacitor Ceramic (X7R)|	Decoupling Capacitor|
+|C11, C18	|22pF	|3	|0603 (imperial)	|Capacitor Ceramic (X7R)|	Decoupling Capacitor|
+|C10	|39pF	|3	|0603 (imperial)	|Capacitor Ceramic (X7R)|	Decoupling Capacitor|
 |C17	|22uF	|1	|1206 (imperial)	|Capacitor Tantalum (≤10%)	|Filtering Capacitor|
 |C1	|100nF	|1	|0603 (imperial)	|Capacitor Ceramic (X7R)	|Decoupling Capacitor|
 |D1	|N/A	|1	|SOT-23	|BAT54W-HG3-18 (or BAT 63-02V H6327 )	|Schottky diode|
@@ -54,7 +55,7 @@ Please follow the [building instructions from the original author](/build.pdf) f
 |U5	|N/A	|1	|TSOP-I-40 (18.4x10mm)	|AM29F080B	|Flash memory|
 
 ## Notes (please read completely before attempting the project)
-- It is not reported in the original repo but C10 capacity must be doubled to remove any graphical glitch. You can either use a 44 pf capacitor or two 22pf capacitors in parallel.
+- It is not reported in the original repo but C10 capacity must be increased to remove any graphical glitch due to FRAM timing inconsistencies. You should use a 39 pf capacitor instead of a 22 pf as indicated on the schematic.
 - The AM29F080B is discontinued but easy to find on Aliexpress for cheap (batches are mainly recycled chips but there are lots of old new stocks). It can be fun to dump the content to see what was the chip usage before its recycling.
 - Some versions of the FM28V100-TG by Cypress semiconductors come without a dot to indicate pin 1 but only a side notch. The side notch also indicates the row where pin 1 is located, so it must be soldered with notch pointing down (same as the dot if present).
 - The M74VHC1GU04DFT1G signal inverter is becoming hard to source in 2024 so it is recommended to switch to a MC74VHC1GU04DF1G (same pinout, same characteristics). The SC-88 package version is quite hard to find on Aliexpress but available on Mouser and Digikey. Chip marking must be **V6** in case of doubt when receiving the order.
@@ -74,7 +75,11 @@ The FRAM came without dot so I used the notch to orient it.
 I've ordered the long board to fit it in a regular camera shell. It can be broken at the "neck" to use a shorter shell.
 
 ![](/Showcase_1.png)
-Some note: I've ordered the signal inverter in the wrong package on Aliexpess (package SC−74A, it was referenced as SC-88A but it was not). It fits on the original traces, and it is easier to solder than the SC-88A. As long as the chip marking begins by V6, pinout is the same. And as said, using a 22 pf capacitor for C10 led to graphical glitches on my side. As I know that this cap is particularly crucial for FRAM stability, I've tried doubling or divding the value by two. Doubling to 44 pf with two 22 pf in parallel fixes the graphical glitches. Also I've soldered C16 even if it is not required.
+Some note: 
+- I've ordered the signal inverter in the wrong package on Aliexpess (package SC−74A, it was referenced as SC-88A but it was not). It barely fits on the original traces, and it is easier to solder than the SC-88A. As long as the chip marking begins by V6, pinout is the same.
+- Using a 22 pf capacitor for C10 led to graphical glitches on my side. As I know that this cap is particularly crucial for FRAM stability, I've tried doubling or dividing the value by two. Doubling to 44 pf with two 22 pf in parallel fixes the graphical glitches. So I recommend using a single 39 pf instead of a 22 pf for C10.
+- I've soldered C16 even if it is not required.
+- I've used old new stock of Panasonic MA784 Schottky diode because I have some.
 
 ## Acknowledgements
 - [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork with relevant informations excavated from that fucking information black hole which is Discord.
