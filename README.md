@@ -82,7 +82,8 @@ Some note:
 - I've used old new stock of Panasonic MA784 Schottky diode because I have some.
 
 ![](/Showcase_4.png)
-Short version with the the Camera+ mini shell. That's so beautiful.
+Short version with the the [Camera+ Mini shell](https://ko-fi.com/s/a4d7bd649a). That's so beautiful.
+.
 
 ## Acknowledgements
 - [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork with relevant informations excavated from that fucking information black hole which is Discord.
