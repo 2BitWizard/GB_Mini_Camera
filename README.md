@@ -81,6 +81,9 @@ Some note:
 - I've soldered C16 even if it is not required.
 - I've used old new stock of Panasonic MA784 Schottky diode because I have some.
 
+![](/Showcase_4.png)
+Short version with the the Camera+ mini shell. That's so beautiful.
+
 ## Acknowledgements
 - [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork with relevant informations excavated from that fucking information black hole which is Discord.
 - [2BitWizard](https://github.com/2BitWizard), original author, for bringing the project to fruition. Thanks also for sending me some early prototypes for testing.
