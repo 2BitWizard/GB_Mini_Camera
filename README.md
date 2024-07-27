@@ -24,12 +24,12 @@ The "Longboard" version has a "neck" that allows mounting it is a regular Game B
 
 Both versions come with pads for both vertical and horizontal SMD JST connectors on the short part (before the neck). Be sure to solder the right connector on the right pad to avoid polarity inversion. **For the Camera+ mini shell and short PCB, it is recommended to go with the horizontal socket as there is not too much room inside.**
 
+![](/Connector.png)
+
 I overall recommend to order the long board which is more versatile by default. The neck is easy to break and file to make a short board with.
 
 In case you want to mount the short PCB in a regular camera shell or in the regular [Game Boy Camera+ shell](https://ko-fi.com/s/9457d1cc6e), you will need a longer ribbon cable. 
 Aliexpress cables are too thick and crappy for that task and you must order a genuine JST cable. Sadly for Eu customers, the only available seller for replacement and longer cable is Digikey. Choose a [type B cable "socket to socket" ](https://www.digikey.fr/en/products/base-product/jst-sales-america-inc/455/A09ZR09Z/588181). The regular camera cable is [2 inches long](https://www.digikey.fr/en/products/detail/jst-sales-america-inc/A09ZR09ZR28H51B/6708551), so take at least a [4 inches one](https://www.digikey.fr/en/products/detail/jst-sales-america-inc/A09ZR09ZR28H102B/9972202). Digikey ribbon cables are stiffer than the genuine cables but they can sustain the same amount of bending/torsion without damage.
-
-![](/Connector.png)
 
 Please follow the [building instructions from the original author](/build.pdf) for PCB ordering options. Use [JLCPCB](https://passport.jlcpcb.com/) for ordering if you live in Europe. They offer VAT compliant services for European customers and very cheap shipping options. I typically got 5 boards ENIG finish shipped to France for 23€.
 
