@@ -72,24 +72,31 @@ Please follow the [building instructions from the original author](/build.pdf) f
 - The ENIG finish can be hard to "wet" depending on the flux used. I used a BEEYUIHF #8403 no clean flux in syringe and was very great in my case (good wetting, easy to clean and no headache after soldering contrary to some other el cheapo Aliexpress brands in metal containers I used to spread before).
 - Of course, cover the cartridge connector completely with kapton tape to avoid any solder splats on it. They are basically impossible to remove after.
 
-## Showcase
+## Showcase with the long board
+
 ![](/Showcase_2.png)
+
 The Cypress FRAM I bought came without dot to indicate pin 1 so I used the notch to orient it.
 
 ![](/Showcase_3.png)
+
 I've ordered the long board to fit it initially in a regular camera shell. It can be broken at the "neck" to fit a shorter shell.
 
 ![](/Showcase_1.png)
-Some notes: 
+
+**Some notes:**
 - I've ordered the signal inverter in the wrong package on Aliexpess (package SC−74A, it was referenced as SC-88A but it was not). It barely fits on the original traces, and it was quite a pain to solder correctly on the traces. But as long as the chip marking begins by V6, pinout is the same.
 - Using a 22 pf capacitor for C10 as recommended in the original repo led to graphical glitches on my side. As I know that this very particular cap is crucial for FRAM stability, I've tried doubling or dividing the value by two. Doubling to 44 pf with two 22 pf in parallel fixes the graphical glitches. So I recommend using a single 39 pf instead of a 22 pf for C10 (44 pf does not exist).
 - I've soldered C16 in place even if it is not required as I used a new voltage regulator. Just in case.
 - I've used old new stock Panasonic MA784 Schottky diode because I bough some for no reason years ago.
 
+## Showcase with the long board, neck broken to make it short
+
 ![](/Showcase_4.png)
+
 Short version (after breaking the neck and soldering an horizontal JST connector) installed inside the [Camera+ Mini shell](https://ko-fi.com/s/a4d7bd649a). That's beautiful and handy to use, very great mod !
 
-Some notes: 
+**Some notes:**
 - I've ordered my Camera+ Mini shell at JLCPCB with the following option: 3D Technology: MJF(Nylon) Material: PA12-HP Nylon Colors: Black Surface Finish: Dyeing-Dyed Black. It came very nice and sturdy like this.
 - My C/CS mount was way to large in diameter to enter the front hole so I had to file it manually until it enters with a moderate force. At this step, you can adjust the C/CS mount deepness until your lens can easily focus to infinity before glueing it definitely by the inside. The mod is very well made so even with the C/CS ring completely pressed inside the hole, it must be OK.
 - The mod does reuse only screws from the genuine camera shell, which is great !
