@@ -4,14 +4,17 @@
 The current release (1.3) has been produced, assembled and tested. It is extremely easy to damage the MAC-GBD, FRAM and flash chip during assembly, this project is **definitely not recommended** for beginners. The board is compatible with any regular camera rom (Game Boy Camera, Pocket Camera, Hello Kitty, Zelda special edition and [Debagame tester](https://tcrf.net/Proto:Game_Boy_Camera)) and homebrews like [Photo!](https://github.com/untoxa/gb-photo) or [2bit PXLR Studio](https://github.com/HerrZatacke/2bit-pxlr-studio). It is recommended to flash this board with a [GBxCart](https://www.gbxcart.com/) and [FlashGBX](https://github.com/lesserkuma/FlashGBX) as support is guaranteed. FlashGBX even automatically recognizes it without doing anything. Other devices (Cyclones, GB Operator, etc.) were not tested. May or may not work, I have no idea.
 
 ## Minimal hardware/soft skill required in addition to all the BOM before starting anything
-- A multimeter with a continuity mode;
+- A multimeter with a continuity mode for troubleshooting;
 - A soldering iron with a fine tip and a temperature setting;
-- A hot air gun or a hot plate;
+- A hot air gun or a hot plate to desolder the MAC-GBD;
 - Good quality solder wire/flux or solder paste;
 - Isopropanol in large quantities to clean all the flux mess;
 - A magnifying system like an USB microscope or binocular magnifiers;
 - A GBxCart flasher and FlashGBX software;
-- An overall skill in soldering SMD components.
+- An overall skill in soldering SMD components because this is not a beginner project.
+- Some kapton tape (ideal) or regular thick tape to cover the PCB gold fingers.
+
+Ready to go ?
 
 ## What to fit it with
 
@@ -67,6 +70,7 @@ Please follow the [building instructions from the original author](/build.pdf) f
 - The schematic is clear and precise enough to troubleshoot any issue with a multimeter in continuity mode. Easy check: the caps must **never** be shorted, two adjacent pins of the FRAM and flash memory must never be shorted. After that, any remaining issue is a just a matter of flow and reflow.
 - It's **very recommended** to use a magnifying system (USB microscope or binocular magnifier). Soldering with bare eyes is possible if you are lucky enough to get the device working first try but any issue will be impossible to troubleshoot. A multimeter is mandatory too in case of issue.
 - The ENIG finish can be hard to "wet" depending on the flux used. I used a BEEYUIHF #8403 no clean flux in syringe and was very great in my case (good wetting, easy to clean and no headache after soldering contrary to some other el cheapo Aliexpress brands in metal containers I used to spread before).
+- Of course, cover the cartridge connector completely with kapton tape to avoid any solder splats on it. They are basically impossible to remove after.
 
 ## Showcase
 ![](/Showcase_2.png)
