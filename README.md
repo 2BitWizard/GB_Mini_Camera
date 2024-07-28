@@ -39,7 +39,7 @@ Please follow the [building instructions from the original author](/build.pdf) f
 
 ![](/Component_placement_w_components.png)
 
-## Component list (both versions)
+## Component list (short and long version)
 
 |Reference	|Value	|Count	|Footprint	|Name	|Description|
 |-----------|----------|-----------|----------------|-------------|------------------|
