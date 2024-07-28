@@ -51,7 +51,7 @@ Please follow the [building instructions from the original author](/build.pdf) f
 |D1	|N/A	|1	|SOT-23	|BAT54W-HG3-18 (or BAT 63-02V H6327 )	|Schottky diode|
 |J2	|N/A	|1	|N/A	|JST ZH1.5mm (9 pins)	|Camera Connector (male)|
 |R1	|1kΩ	|1	|0603 (imperial)	|Resistor	|Resistor|
-|U1	|N/A	|1	|TQFP-100 (14x14mm)	|MAC-GBD from original cart (U1)	|Main gamecart chip|
+|U1	|N/A	|1	|TQFP-100 (14x14mm)	|MAC-GBD from original cart	|Main gamecart mapper chip|
 |U2	|N/A	|1	|SC-88A-5 	|M74VHC1GU04DFT1G-L22038	|Signal inverter|
 |U3	|N/A	|1	|TSOP-I-32 (12.4x8mm)	|FM28V100-TG 	|FRAM|
 |U4	|N/A	|1	|SOT-23-5	|NCP718ASN300T1G 	|3V0 voltage regulator|
