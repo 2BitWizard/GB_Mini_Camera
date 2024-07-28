@@ -35,7 +35,7 @@ Please follow the [building instructions from the original author](/build.pdf) f
 
 **IMPORTANT note:** some GameBoy cameras have the U4 regulator populated instead of the U5 regulator. The board is designed to work with either the regulator linked in the BOM (recommended) or the U5 regulator harvested from the original camera cart. **U4 from the original board will not work.** If you're using a new 3V0 regulator from the BOM list, the **C16 capacitor will not be necessary.** Unlike the original 3V0 regulator, the pin connected to this capacitor is NC on the new 3V0 regulator.
 
-## Component location and orientation on PCB (short version)
+## Component location and orientation on PCB (short and long version)
 
 ![](/Component_placement_w_components.png)
 
