@@ -105,5 +105,5 @@ Short version (after breaking the neck and soldering an horizontal JST connector
 
 ## Acknowledgements
 - [Andreas Hahn](https://github.com/HerrZatacke) and [Mraulio](https://github.com/Mraulio) for helping me to complete this fork with relevant informations excavated from that fucking information black hole that is Discord.
-- [2BitWizard](https://github.com/2BitWizard), original author, for bringing the project to fruition. Thanks also for sending me some early prototypes for testing.
+- [2BitWizard](https://github.com/2BitWizard), original author, for bringing the project to fruition. Thanks also for sending me some early prototypes for testing. Go [here](https://disboard.org/fr/server/568464159050694666) to discuss with him directly.
 - [2BitToy](https://ko-fi.com/2bittoy/) for his great/neat camera mods.
