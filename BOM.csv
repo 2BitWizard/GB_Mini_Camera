@@ -1,4 +1,4 @@
-Item Nr.,Designator,Qty,Manufacturer,Mfg Part Nr.,Description / Value,Package/Footprint ,Type,Your Instructions / Notes
+Item Nr.,Designator,Qty,Manufacturer,Mfg Part Nr.,Description / Value,Package/Footprint ,Type,Notes
 1,"C2, C3, C4, C5, C6, C7, C8, C9, C12, C13, C14, C15, C19",13,ANY,ANY (within parameters),10nF Capacitor Ceramic (X7R) Decoupling Capacitor,0603 (imperial),,
 2,"C10, C11",2,ANY,ANY (within parameters),33pF Capacitor Ceramic (X0G/NP0)  Signal shift capacitor,0603 (imperial),,
 3,C17,1,Kemet,T495A226K010ATE1K2,22uF Capacitor Tantalum (10%) Filtering Capacitor,1206 (imperial),,
