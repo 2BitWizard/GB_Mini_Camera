@@ -1,13 +1,13 @@
-Item Nr.;Designator;Qty;Manufacturer;Mfg Part Nr.;Description / Value;Package/Footprint ;Type;Your Instructions / Notes
-1;"C2, C3, C4, C5, C6, C7, C8, C9, C12, C13, C14, C15, C19";13;ANY;ANY (within parameters);10nF Capacitor Ceramic (X7R) Decoupling Capacitor;0603 (imperial);;
-2;"C10, C11";2;ANY;ANY (within parameters);33pF Capacitor Ceramic (X0G/NP0)  Signal shift capacitor;0603 (imperial);;
-3;C17;1;Kemet;T495A226K010ATE1K2;22uF Capacitor Tantalum (10%) Filtering Capacitor;1206 (imperial);;
-4;C1;1;ANY;ANY (within parameters);100nF Capacitor Ceramic (X7R) Decoupling Capacitor;0603 (imperial);;
-5;D1;1;Vishay;BAT54W-HG3-18;N/A  Schottky diode;SOD-123;;
-6;J2;1;JST;S9B-ZR-SM4A-TF;CONN HEADER SMD R/A 9POS 1.5MM;JST_S9B-ZR-SM4A-TF_1x09_P1.50mm_Horizontal (modified);;Dual purpose footprint: Supports S9B-ZR-SM4A-TF OR B9B-ZR-SM4-TF. When using S9B-ZR-SM4A-TF see reference image for orientation.
-7;R1;1;ANY;ANY (within parameters);1k Resistor (5%);0603 (imperial);;
-8;U1;1;Nintendo;MAC-GBD;Nintendo Mapper (EOL);TQFP-100 (14x14mm);;No replacement available, Populate with old stock chip.
-9;U2;1;Diodes Incorporated;74LVC1G06SE-7;Signal inverter;SC-88A-5 ;;
-10;U3;1;Infineon Technologies;FM28V100-TG;1Mbit (128k x 8) FRAM;TSOP-I-32 (12.4x8mm);;
-11;U4;1;OnSemi;NCP718ASN300T1G;3V0 LDO voltage regulator;SOT-23-5;;
-12;U5;1;Infineon Technologies;AM29F080B0-70EF;NOR Flash Memory (1M x 8) (EOL);TSOP-I-40 (18.4x10mm);;No replacement available, Populate with old stock chip.
+Item Nr.,Designator,Qty,Manufacturer,Mfg Part Nr.,Description / Value,Package/Footprint ,Type,Your Instructions / Notes
+1,"C2, C3, C4, C5, C6, C7, C8, C9, C12, C13, C14, C15, C19,13",ANY,ANY (within parameters),10nF Capacitor Ceramic (X7R) Decoupling Capacitor,0603 (imperial),,
+2,"C10, C11",2,ANY,ANY (within parameters),33pF Capacitor Ceramic (X0G/NP0)  Signal shift capacitor,0603 (imperial),,
+3,C17,1,Kemet,T495A226K010ATE1K2,22uF Capacitor Tantalum (10%) Filtering Capacitor,1206 (imperial),,
+4,C1,1,ANY,ANY (within parameters),100nF Capacitor Ceramic (X7R) Decoupling Capacitor,0603 (imperial),,
+5,D1,1,Vishay,BAT54W-HG3-18,N/A  Schottky diode,SOD-123,,
+6,J2,1,JST,S9B-ZR-SM4A-TF,CONN HEADER SMD R/A 9POS 1.5MM,JST_S9B-ZR-SM4A-TF_1x09_P1.50mm_Horizontal (modified),,Dual purpose footprint: Supports S9B-ZR-SM4A-TF OR B9B-ZR-SM4-TF. When using S9B-ZR-SM4A-TF see reference image for orientation.
+7,R1,1,ANY,ANY (within parameters),1k Resistor (5%),0603 (imperial),,
+8,U1,1,Nintendo,MAC-GBD,Nintendo Mapper (EOL),TQFP-100 (14x14mm),,No replacement available, Populate with old stock chip.
+9,U2,1,Diodes Incorporated,74LVC1G06SE-7,Signal inverter,SC-88A-5 ,,
+10,U3,1,Infineon Technologies,FM28V100-TG,1Mbit (128k x 8) FRAM,TSOP-I-32 (12.4x8mm),,
+11,U4,1,OnSemi,NCP718ASN300T1G,3V0 LDO voltage regulator,SOT-23-5,,
+12,U5,1,Infineon Technologies,AM29F080B0-70EF,NOR Flash Memory (1M x 8) (EOL),TSOP-I-40 (18.4x10mm),,No replacement available, Populate with old stock chip.
