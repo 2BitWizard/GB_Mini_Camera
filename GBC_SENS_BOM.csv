@@ -13,5 +13,5 @@
 "12","U5","1","AMD","AM29F080B0-70EF/AM29F016D-70EF","NOR Flash Memory (1M x 8)/(2M x 8) EOL","TSOP-I-40 (18.4x10mm)/TSOP-I-48 (18.4x12mm)","","No replacement available, can not be automatically assembled. Up to end user to populate with old stock chip."
 "13","U6","1","Mitsubishi","M64282FP","Imaging Sensor (EOL)","SSOP-16","","No replacement available, can not be automatically assembled. Up to end user to populate with old stock chip."
 "14","L1","1","ANY","ANY (within parameters)","220 Ohm Ferrite bead","1210 (imperial)","",""
-"15","C20,C21","2","ANY","ANY (within parameters)","10nF Capacitor Ceramic (X7R) Decoupling Capacitor","0603 (imperial)","",""
+"15","C20,C21","2","ANY","ANY (within parameters)","100nF Capacitor Ceramic (X7R) Decoupling Capacitor","0603 (imperial)","",""
 "16","SW1","1","Korean Hroparts Elec K3-1296S-E1","K3-1296S-E1","Slide Switch SPDT","SMD,6.6x2.7mm","",""
