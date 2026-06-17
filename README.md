@@ -37,7 +37,7 @@ The project PCBs currently contain two **optional** solder jumpers. These should
 * JP1 **must** be bridged when:
 	* U2 and C4 remain unpopulated, bypassing the signal inverter.
 	
-* JP2 **must** be bridged when:
+* Pads marked with arrows on SW1 **must** be bridged when:
 	* There's no ROM switch installed, while a 2MB flash chip is used (this will limit the cart to a single ROM)
 	
 ### Note: C14
