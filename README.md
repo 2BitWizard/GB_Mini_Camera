@@ -20,6 +20,10 @@
 * Compatible with [Camera+](https://ko-fi.com/s/9457d1cc6e) (requires custom extended sensor cable)
 * Compatible with [Game Boy Mini Camera](https://gameboycamera.super.site/projects/game-boy-mini-camera) (By Christopher Graves)
 
+## Order notes
+* This GameBoy Camera PCB should be ordered at a thickness of 0.8mm
+* This GameBoy Camera PCB should be ordered with an ENIG finish
+
 ## Assembly notes
 
 ### Project difficulty
