@@ -17,7 +17,7 @@
 * Footprint for ROM switch
 * Footprint for camera sensor
 * Compatible with [Camera+ mini](https://ko-fi.com/s/a4d7bd649a)
-* Compatible with [Camera+](https://ko-fi.com/s/9457d1cc6e) (requires custom extended sensor cable)
+* Compatible with [Camera+](https://ko-fi.com/s/9457d1cc6e)
 * Compatible with [Game Boy Mini Camera](https://gameboycamera.super.site/projects/game-boy-mini-camera) (By Christopher Graves)
 
 ## Order notes
