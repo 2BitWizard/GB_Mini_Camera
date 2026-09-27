@@ -6,7 +6,10 @@
 ## Current Version:
 
 ### IMPORTANT NOTICE!
-* The sensor is placed upside down to minimize distance between pins and LC filter. The original ROM can not flip both X and Y at the same time. User Photo! ROM to perform the full XY flip.
+When building Crhis' mini cart, keep the following in mind:  
+The sensor is placed upside down to aid LC filter placement.
+This requires both the X and Y axis to flip for correct image rendering.
+This is not possible in the standard GameBoy camera ROM, but is possible in the Photo! ROM.
 
 ### GBC_V2.1
 * Most compact out of the box
