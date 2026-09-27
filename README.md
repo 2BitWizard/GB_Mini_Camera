@@ -5,6 +5,9 @@
 
 ## Current Version:
 
+### IMPORTANT NOTICE!
+* The sensor is placed upside down to minimize distance between pins and LC filter. The original ROM can not flip both X and Y at the same time. User Photo! ROM to perform the full XY flip.
+
 ### GBC_V2.1
 * Most compact out of the box
 * No ROM switch
