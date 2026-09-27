@@ -6,7 +6,7 @@
 ## Current Version:
 
 ### IMPORTANT NOTICE!
-When building Crhis' mini cart, keep the following in mind:  
+When building Chris' mini cart, keep the following in mind:  
 The sensor is placed upside down to aid LC filter placement.
 This requires both the X and Y axis to flip for correct image rendering.
 This is not possible in the standard GameBoy camera ROM, but is possible in the Photo! ROM.
