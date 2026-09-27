@@ -7,14 +7,14 @@
 
 ### GBC_V2.2
 * Most compact out of the box
-* No ROM switch
+* Footprint for internal ROM switch
 * No sensor footprint
 * Compatible with [Camera+ mini](https://ko-fi.com/s/a4d7bd649a)
 * Compatible with [Camera+](https://ko-fi.com/s/9457d1cc6e) (requires custom extended sensor cable)
 
 ### GBC_SENS_V2.2
 * Not as compact out of the box
-* Footprint for ROM switch
+* Footprint for external or internal ROM switch
 * Footprint for camera sensor
 * Compatible with [Camera+ mini](https://ko-fi.com/s/a4d7bd649a)
 * Compatible with [Camera+](https://ko-fi.com/s/9457d1cc6e)
